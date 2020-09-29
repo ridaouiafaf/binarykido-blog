@@ -1,2 +1,2 @@
 # What is this project?
-To be described soon ...
+To be described soon [...]

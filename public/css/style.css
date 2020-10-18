@@ -1,0 +1,24 @@
+
+.paragraph
+.paragraph h1{
+    font-family: 'Paytone One', sans-serif;
+}
+.paragraph h5{
+    font-family: 'Paytone One', sans-serif;
+}
+.list-group h5 {
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Cairo', sans-serif;
+}
+.rtl {
+    direction: rtl; 
+    text-align: right;
+    unicode-bidi: bidi-override;
+}
+
+.ltr {
+    direction: ltr; 
+    text-align: left;
+    unicode-bidi: bidi-override;
+}

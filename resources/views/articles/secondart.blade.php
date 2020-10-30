@@ -121,8 +121,8 @@
             </p>
             {{-- STANDARDS --}}
             {{-- <img class="center article-img" src="{{asset('img/art2-3.png')}}" alt="article2-3"> --}}
-            <h6 class="col-md-10 center rtl article-subheader text-pink"></h6>
-            <p class="col-md-10 center rtl article-p"></p>
+            {{-- <h6 class="col-md-10 center rtl article-subheader text-pink"></h6> --}}
+            {{-- <p class="col-md-10 center rtl article-p"></p> --}}
         </div>
     </div>
 @endsection

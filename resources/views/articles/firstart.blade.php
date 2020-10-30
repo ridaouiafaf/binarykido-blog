@@ -5,9 +5,8 @@
             
             <h5 class="rtl article-header text-blue">6 الأسباب علاش عمرني نتعلم البرمجة ؟</h5>
             <img class="center article-img" src="{{asset('img/art1.jpg')}}" alt="article1">
-            <p class="text-center rtl article-p">
+            <p class="col-md-10 center rtl article-p">
                 قريت واحد الارتيكل وعجبني بغيت نشارك معاكم دكشي لي فيه حيت شيحوايج انا نيت كنت كنديرهم وزدت اللمسة تاعي عليه.
-                <br>
                 لي بغا يقرا المقال الأصلي : <a class="text-danger" href="https://learn.onemonth.com/6-reasons-why-youll-never-learn-to-code/?fbclid=IwAR0VDWmgdInzp8f4qhpdG4W3uizu2kdnfGHFsRCTwwCTzW0s4sBJHzz143w">هنا</a>
             </p>
             <h6 class="rtl article-subheader text-pink">1. مخدامش على بروجي تاع صح.</h6>

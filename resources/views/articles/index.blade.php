@@ -16,7 +16,7 @@
                     </a>
                 </h5> 
                 <h5 class="text-dark text-center">
-                    <a class="text-dark btn btn-light btn-article" href="">
+                    <a class="text-dark btn btn-light btn-article" href="{{route('thirdart')}}">
                         بغيت نبدا البرمجة ومعرفتش باش نبدا
                     </a>
                 </h5>

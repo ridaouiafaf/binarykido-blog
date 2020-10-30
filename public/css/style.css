@@ -1,16 +1,41 @@
-
-.paragraph
-.paragraph h1{
-    font-family: 'Paytone One', sans-serif;
+/* body's general styling */
+body{
+    background-color: #343A40;
 }
-.paragraph h5{
-    font-family: 'Paytone One', sans-serif;
+/* paragraph's general styling */
+p{
+    text-align: justify;
 }
+/* navbar & its items style details */
+.navbar{
+    background: linear-gradient(45.34deg, #8AA2BD 5.66%, #C789AC 50.01%, #D2B7B0 94.35%);
+}
+.nav-item{
+    color: white;
+    font-size: 21px;
+    font-family: 'Almarai', sans-serif;
+}
+.nav-link{
+    color: #343A40;
+}
+.nav-item :hover{
+    color: white;
+}
+/* about view's style */
+.about-img{
+    float: right; 
+    padding: 20px;
+}
+/* list group elements style */
 .list-group h5 {
     padding: 10px;
     font-size: 30px;
     font-family: 'Cairo', sans-serif;
 }
+.list-group ul{
+    padding: 50px;
+}
+/* styling for arabic's texts */
 .rtl {
     direction: rtl; 
     text-align: right;
@@ -21,4 +46,85 @@
     direction: ltr; 
     text-align: left;
     unicode-bidi: bidi-override;
+}
+/* blog headers titles style */
+
+.blog-header{
+    font-size: 72px;
+    font-family: 'Almarai', sans-serif;
+}
+/* blog headers sub titles style */
+
+.blog-subheader{
+    font-size: 34px;    
+    font-family: 'Almarai', sans-serif;
+}
+/* blog random paragraphs style */
+
+.blog-paragraph{
+    text-align: justify; 
+    font-size: 18px;
+    font-family: 'Cairo', sans-serif;
+}
+/* centering an image  */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+/* highlighted articles images style */
+.article-img{
+    width: 70%;
+    height: 70%;
+}
+/* ARTICLES PART */
+/* articles paragraphs style */
+.article-p {
+    color: black;
+    font-size: 18px;
+    font-family: 'Almarai', sans-serif;
+    text-align: justify;
+}
+/* articles titles style */
+.article-header {
+    font-size: 72px;
+    font-family: 'Jomhuria', cursive;
+    text-align: center;
+    padding: 20px;
+}
+/* articles sub titles style */
+.article-subheader {
+    font-size: 40px;
+    font-family: 'Jomhuria', cursive;
+    text-align: center;
+}
+.article-li{
+    font-size: 18px;
+    color: black;
+    font-family: 'Almarai', sans-serif;
+}
+/* button artcile */
+.btn-article{
+    font-size: 21px;
+}
+/* text  and its backgrounds coloring */
+.text-pink{
+    color:#C789AC;
+}
+.bg-pink{
+    background-color:#C789AC;
+}
+.text-blue{
+    color: #8AA2BD;
+}
+.bg-blue{
+    background-color: #8AA2BD;
+}
+.text-beige{
+    color: #D2B7B0;
+}
+.bg-beige{
+    background-color: #D2B7B0;
 }
